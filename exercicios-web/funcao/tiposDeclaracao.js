@@ -1,4 +1,4 @@
-console.log(soma(3, 4))
+console.log(soma(3, 4)) //somente function declaration pode ser declarada antes
 
 // function declaration
 function soma(x, y) {

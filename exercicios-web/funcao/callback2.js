@@ -11,7 +11,7 @@ for (let i in notas) {
 console.log(notasBaixas1)
 
 // Com callback
-const notasBaixas2 = notas.filter(function (nota) {
+const notasBaixas2 = notas.filter(function (nota) { //filter retorna false oou true, adiciona somente o true como um if
     return nota < 7
 })
 

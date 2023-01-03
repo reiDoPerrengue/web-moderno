@@ -1,6 +1,6 @@
 class Pessoa {
     constructor(nome) {
-        this.nome = nome
+        this.nome = nome //no browser o this se torna undefined
     }
 
     falar() {
