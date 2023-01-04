@@ -14,7 +14,7 @@ global.desc = 0.1
 console.log(getPreco())
 console.log(produto.getPreco())
 
-const carro = { preco: 49990, desc: 0.20 }
+const carro = { preco: 49990, desc: 0.20 }//desconte de 20%
 
 console.log(getPreco.call(carro))
 console.log(getPreco.apply(carro))
